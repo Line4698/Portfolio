@@ -13,4 +13,10 @@
 */
 .ast-primary-header-bar {position: fixed; 
 width: 100%;}
-main {margin-top: 8em !important;
+main {margin-top: 8em !important;}
+
+@media only screen and (max-width: 900px) {
+    #ast-hf-menu-1 {margin-top: 5em; !important}
+    .elementor-icon-box-description {color: white !important;}
+  }
+
